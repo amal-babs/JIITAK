@@ -1,0 +1,191 @@
+/* Dashboard.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf9f4;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #ff9900;
+    margin-bottom: 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 10px 0;
+    color: #333;
+    cursor: pointer;
+  }
+  
+
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon {
+    font-size: 24px;
+  }
+  
+  .stats-overview {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .stat-card {
+    flex: 1;
+    min-width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .subtext {
+    color: #888;
+  }
+  
+  .growth {
+    font-weight: bold;
+  }
+  
+  .growth.positive {
+    color: green;
+  }
+  
+  .growth.negative {
+    color: red;
+  }
+  
+  .chart-section {
+    margin-top: 40px;
+  }
+  
+  .chart-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+  }
+  .menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px 0;
+}
+
+.menu{
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-link.active {
+  font-weight: bold;
+  color: #ff9900;
+}
+.user-menu {
+  position: relative;
+}
+
+.user-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 150px;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #f9f9f9;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.menu-icon {
+  margin-right: 8px; /* Adds spacing between icon and text */
+  font-size: 20px;   /* Adjust icon size */
+}
+
+.menu-link:hover {
+  background-color: #faeed3; /* Light Orange color */
+  border-radius: 4px;        /* Rounded corners */
+  color:#FFA500;              /* Change text color on hover */
+}
+.dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart-section {
+  margin-top: 20px}

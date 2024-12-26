@@ -1,0 +1,80 @@
+.registered-users-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin-right: 130px;
+  }
+  
+  .search-container {
+    margin-bottom: 15px;
+    margin-left: 750px;
+  }
+  
+  .search-container input {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .users-table th {
+    background-color: #f9f9f9;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  .sidebar {
+    margin-right: 100px;
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+     padding: 20px;
+
+     
+  }
+  .menu-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.menu-icon {
+  margin-right: 8px; /* Adds spacing between icon and text */
+  font-size: 20px;   /* Adjust icon size */
+}
+
+.menu-link:hover {
+  background-color: #faeed3; /* Light Orange color */
+  border-radius: 4px;        /* Rounded corners */
+  color: #FFA500;              /* Change text color on hover */
+}
